@@ -45,9 +45,10 @@ Connect your bluetooth device to Intel Edison. You can do this with few simple c
 
 	- Connect your Intel Edison through serial connection
 	- Enter these commands
-	``` rfkill unblock bluetooth
+
+	    rfkill unblock bluetooth
         bluetoothctl
-    ```
+    
     - pair and connect your bluetooth device 
 
-You are good to go. Control and play your 4G Sound Caster device with SmartLiving platform and enjoy the music
+You are good to go. Control and play your 4G Sound Caster device with SmartLiving platform and enjoy the music!
