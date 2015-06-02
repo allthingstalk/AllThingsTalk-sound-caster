@@ -33,7 +33,7 @@ And you will need account on https://beta.smartliving.io/
 2. You will need an account on https://beta.smartliving.io/ so register and sign in.
 3. Create new device, choose Intel Edison and name it '4G Sound Caster'.
 4. Click on the newly created device
-5. In your console/terminal input 'npm install smartliving'
+5. In your console/terminal input `npm install smartliving`
 6. When you install library, copy and paste credentials provided on platform into your credentials.json file inside the '4G Sound Caster' project
 7. Open '4G Sound Caster' project in Intel XDK, connect your Intel Edison and upload the project
 
