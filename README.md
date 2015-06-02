@@ -17,6 +17,7 @@ Core component of the prototype is Intel Edison and SmartLiving cloud support.
 #### What you need
 
 First of all you will need some hardware.
+
 	- Intel Edison dev board
 	- Bluetooth speaker or headphones
 	- 2 micro USB cabels
