@@ -52,3 +52,15 @@ Connect your bluetooth device to Intel Edison. You can do this with few simple c
     - Pair and connect your bluetooth device 
 
 You are good to go. Control and play your 4G Sound Caster device with SmartLiving platform and enjoy the music!
+
+#### Alternative
+
+If you want to enable your Sound Caster to auto connect to your bluetooth device we included two files `startup.sh` and `bluez_autostart.service` in project. Just follow these steps to enable the autoconnect feature
+	
+	- Place bluez_autostart.service in /lib/systemd/system on Intel Edison
+	- In startup.sh change the bluetooth device mac adress with the mac adress of your device
+	- Place startup.sh in /home/root on Intel Edison
+	- enter this command `enable bluetooth autostart`
+	- enter this command `systemctl enable bluez_startup`
+
+If needed, check the service log with this command: `systemctl status bluez_startup`

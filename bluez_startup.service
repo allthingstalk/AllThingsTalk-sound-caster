@@ -1,0 +1,10 @@
+[Unit]
+Description=bluez startup service job
+After=bluetooth.service
+
+[Service]
+Type=oneshot
+ExecStart=/home/root/startup.sh
+
+[Install]
+WantedBy=bluetooth.service
