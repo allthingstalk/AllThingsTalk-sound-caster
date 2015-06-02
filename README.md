@@ -6,7 +6,7 @@
 
 Device is preseted with audio stream but you can change the stream url.
 
-	- currently supported streams: OGG streams 
+	- Currently supported streams: OGG streams 
 
 You can change the volume of the stream.
 
@@ -49,6 +49,6 @@ Connect your bluetooth device to Intel Edison. You can do this with few simple c
 	    rfkill unblock bluetooth
         bluetoothctl
     
-    - pair and connect your bluetooth device 
+    - Pair and connect your bluetooth device 
 
 You are good to go. Control and play your 4G Sound Caster device with SmartLiving platform and enjoy the music!
